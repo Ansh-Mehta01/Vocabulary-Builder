@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('WhatsApp\ Image\ 2024-03-07\ at\ 00.23.12_2f4552c1.jpg');
+  }
+  
+  #container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #wordDisplay {
+    display: block;
+  }
+  
+  #quiz {
+    display: none;
+  }
+
+ .q{
+  margin-top: 200px;
+  background-color: rgb(240, 217, 88);
+  margin-left:370px;
+  margin-right: 370px;
+  border-radius: 20px;
+  border: 4px solid red;
+  
+ }
+.q h2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+  
+  
+  .option {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    
+    padding: 10px 20px;
+    color: black;
+    font-weight: bolder;
+    background-color: rgb(236, 15, 236);
+    border-radius: 20px;
+    border: 4px solid greenyellow;
+    
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+ 
+  
+  .option:hover {
+    background-color: #ccc;
+  }
+  
+  #result {
+    display: none;
+  }
+  
